@@ -1,0 +1,102 @@
+﻿skill_id,skill_name,related_skill_id,relationship
+1,adding-decimals,57;91,Associative;Associative
+2,addition,1;4;10;63;92,Predecessor;Predecessor;Predecessor;Predecessor;Associative
+3,algebra symbolization,27;40;50;65;90;97,Predecessor;Predecessor;Predecessor;Associative;Predecessor;Predecessor
+4,algebraic-manipulation,5;28;50;65;90,Predecessor;Predecessor;Predecessor;Associative;Predecessor
+5,application: compare expressions,97,Associative
+6,application: compare points,79,Associative
+7,application: find slope in graph,79,Associative
+8,application: finding percentage of a number,23;32,Associative;Associative
+9,application: isosceles triangle,22,Associative
+10,application: multi-column addition,11,Associative
+11,application: multi-column subtraction,10,Associative
+12,application: order of operations,85,Associative
+13,application: read points,6,Predecessor
+14,application: simple multiplication,85,Associative
+15,area,17;37;69;96,Predecessor;Associative;Associative;Predecessor
+16,area-concept,15,Predecessor
+17,area-of-circle,19,Associative
+18,circle-graph,79;88;89,Predecessor;Associative;Associative
+19,circumference,17,Associative
+20,combinatorics,72;102,Predecessor;Associative
+21,comparing-fractions,64,Associative
+22,congruence,9;84;98,Associative;Associative;Associative
+23,discount,8,Associative
+24,divide-decimals,57,Associative
+25,divisibility,71,Predecessor
+26,division,24;34;56;63;77,Predecessor;Predecessor;Associative;Predecessor;Predecessor
+27,equation-concept,28;41;44;50;65,Predecessor;Predecessor;Predecessor;Associative;Associative
+28,equation-solving,42;44,Predecessor;Predecessor
+29,equivalent-fractions-decimals-percents,21;33;68;81,Predecessor;Associative;Predecessor;Associative
+30,evaluating-functions,44,Associative
+31,exponents,83;87,Predecessor;Predecessor
+32,finding-percents,8;23,Associative;Predecessor
+33,fraction-decimals-percents,29;68,Associative;Predecessor
+34,fraction-division,35;47,Associative;Associative
+35,fraction-multiplication,34;47;67,Associative;Associative;Predecessor
+36,fractions,21;29;33;34;35;59;72;75;80;81,Predecessor;Predecessor;Predecessor;Predecessor;Predecessor;Associative;Predecessor;Predecessor;Predecessor;Predecessor
+37,g-geometry,15;69;73;74,Associative;Associative;Associative;Associative
+38,graph interpretation,39;44,Predecessor;Associative
+39,graph-shape,66,Associative
+40,inducing-functions,30;38;44;65,Predecessor;Predecessor;Predecessor;Associative
+41,inequalities,42,Predecessor
+42,inequality-solving,50,Associative
+43,integers,58;59;61;64;82,Predecessor;Associative;Predecessor;Predecessor;Predecessor
+44,interpreting-linear-equations,30;38,Associative;Associative
+45,interpreting-numberline,64,Associative
+46,isosceles-triangle,9,Predecessor
+47,least-common-multiple,34;35,Associative;Associative
+48,linear-area-volume-conversion,49;78;96,Associative;Associative;Associative
+49,m-measurement,48;53;101,Associative;Associative;Associative
+50,making-sense-of-expressions-and-equations,5;27;42,Predecessor;Associative;Associative
+51,mean,54;55,Associative;Associative
+52,meaning-of-pi,17;19,Predecessor;Predecessor
+53,measurement,48;49;69;96;101,Predecessor;Associative;Predecessor;Predecessor;Predecessor
+54,median,51;55,Associative;Associative
+55,mode,51;54,Associative;Associative
+56,multiplication,4;14;25;26;31;35;47;57;58;59;62;63;77,Predecessor;Predecessor;Predecessor;Associative;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor;Associative;Predecessor;Predecessor;Predecessor
+57,multiplying-decimals,1;24;58,Associative;Associative;Associative
+58,multiplying-positive-negative-numbers,57,Associative
+59,n-number-sense-operations,36;43;56;85,Associative;Associative;Associative;Associative
+61,number-line,45;64;70,Predecessor;Predecessor;Predecessor
+62,of-means-multiply,67,Predecessor
+63,order-of-operations,4;12;85,Predecessor;Predecessor;Associative
+64,ordering-numbers,6;21;45;82,Predecessor;Associative;Associative;Associative
+65,p-patterns-relations-algebra,3;4;27;40;66,Associative;Associative;Associative;Associative;Associative
+66,pattern-finding,39;40;65,Associative;Predecessor;Associative
+67,percent-of,8;23;32,Predecessor;Predecessor;Predecessor
+68,percents,18;23;32;67;75,Predecessor;Predecessor;Predecessor;Predecessor;Associative
+69,perimeter,15;19;37,Associative;Predecessor;Associative
+70,point-plotting,6;7;13;38;79,Predecessor;Predecessor;Predecessor;Predecessor;Predecessor
+71,prime-number,47,Predecessor
+72,probability,102,Associative
+73,properties-of-geometric-figures,15;22;37;46;69;74;84;94;95;98;100,Predecessor;Predecessor;Associative;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor
+74,properties-of-solids,37;96,Associative;Predecessor
+75,proportion,23;67;68;77;84,Predecessor;Predecessor;Associative;Predecessor;Predecessor
+76,pythagorean-theorem,100,Associative
+77,rate,78,Predecessor
+78,rate-with-distance-and-time,48,Associative
+79,reading-graph,6;7;38,Associative;Associative;Predecessor
+80,reciprocal,34,Predecessor
+81,reduce-fraction,21;29;35,Predecessor;Associative;Predecessor
+82,rounding,64;83,Associative;Associative
+83,scientific-notation,82,Associative
+84,similar-triangles,22;76,Associative;Predecessor
+85,simple-calculation,2;12;14;26;56;59;63;92,Predecessor;Associative;Associative;Predecessor;Predecessor;Associative;Associative;Predecessor
+86,slope,7;44,Predecessor;Predecessor
+87,square-root,76,Predecessor
+88,statistics,18;51;54;55;79;89,Associative;Predecessor;Predecessor;Predecessor;Predecessor;Predecessor
+89,stem-and-leaf-plot,18;79,Associative;Predecessor
+90,substitution,28;30,Predecessor;Predecessor
+91,subtracting-decimals,1,Associative
+92,subtraction,2;4;11;63;91,Associative;Predecessor;Predecessor;Predecessor;Predecessor
+93,sum-of-interior-angles-more-than-3-sides,95;99,Associative;Associative
+94,sum-of-interior-angles-triangle,93;95;100,Predecessor;Associative;Associative
+95,supplementary-angles,93;94;99,Associative;Associative;Predecessor
+96,surface-area-and-volume,48,Associative
+97,symbolization-articulation,5;50,Associative;Predecessor
+98,transformations-rotations,22,Associative
+99,transversals,93,Associative
+100,triangle-inequality,76;94,Associative;Associative
+101,unit-conversion,48;49;78,Predecessor;Associative;Predecessor
+102,venn-diagram,20;72,Associative;Associative

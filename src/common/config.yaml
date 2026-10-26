@@ -1,0 +1,82 @@
+dataset: assist2017
+random_seed: 15613
+device: cuda
+split_ratios:
+  train: 0.8
+  valid: 0.1
+  test: 0.1
+warmup_k: 1
+min_student_interactions: 5
+max_sequence_length: 1000
+batch_size:
+  assist2017: 32
+  eedi34: 64
+  xes3g5m: 128
+num_workers: 0
+length_bucket_multiplier: 2
+max_epochs: 50
+early_stopping:
+  enabled: true
+  patience: 5
+  min_delta: 0.0
+learning_rate: 0.001
+weight_decay: 0.01
+lr_scheduler:
+  factor: 0.5
+  patience: 3
+  threshold: 0.0001
+  min_lr: 1.0e-05
+checkpoint_dir: checkpoints
+model_config:
+  hidden_dim: 128
+  dropout: 0.2
+  abilities_per_concept: 5
+  assignment_temperature: 0.5
+  graph_layers: 2
+  graph_initial_residual: 0.1
+schedule:
+  prune_start_epoch: 3
+  weight_prune_threshold: 0.1
+  weight_change_tolerance: 0.2
+  stable_epochs: 2
+evaluation:
+  accuracy_threshold: 0.5
+eedi34:
+  records_data: data/eedi/train_data/train_task_3_4.csv
+  answer_metadata: data/eedi/metadata/answer_metadata_task_3_4.csv
+  question_kc_data: data/eedi/metadata/question_metadata_task_3_4.csv
+  kcs_data: data/eedi/metadata/subject_metadata.csv
+  kc_relation_data: data/eedi/skill_relationships.csv
+  relation_columns:
+    kc_id: skill_id
+    kc_name: skill_name
+    related_kc_id: related_skill_id
+  relation_aliases:
+    Predecessor: Successor
+  encoding: utf-8-sig
+  records_cache_dir: cache/data/eedi34/random_students_seed{random_seed}/arrays
+assist2017:
+  records_data: data/assistments17/anonymized_full_release_competition_dataset.csv
+  kc_relation_data: relations/assist2017/skill_relationships.csv
+  relation_columns:
+    kc_id: skill_id
+    kc_name: skill_name
+    related_kc_id: related_skill_id
+  relation_aliases:
+    Predecessor: Successor
+  encoding: utf-8-sig
+  records_cache_dir: cache/data/assist2017/random_students_seed{random_seed}/arrays
+xes3g5m:
+  records_data:
+  - data/XES3G5M/question_level/train_valid_sequences_quelevel.csv
+  - data/XES3G5M/question_level/test_quelevel.csv
+  kcs_data: data/XES3G5M/metadata/kc_routes_map.json
+  kc_relation_data: data/XES3G5M/skill_relationships.csv
+  relation_columns:
+    kc_id: skill_id
+    kc_name: skill_name
+    related_kc_id: related_skill_id
+  relation_aliases:
+    Predecessor: Successor
+  encoding: utf-8-sig
+  records_cache_dir: cache/data/xes3g5m/random_students_seed{random_seed}/arrays
